@@ -1,12 +1,30 @@
-import Body01 from './assets/bodies/01';
+import React from 'react';
+
+import Character from './components/Character';
+import bodies from './components/Character/bodies';
+import {
+  skinColors,
+  clothesColors,
+} from './components/Character/constants';
 
 function App() {
+  const [bodyIndex, setBodyIndex] = React.useState(0);
+  const [skinColor, setSkinColor] = React.useState(skinColors[0]);
+  const [clothesColor, setClothesColor] = React.useState(
+    clothesColors[0]
+  );
+
   return (
     <div>
-      <Body01
-        skinColor="red"
-        clothesColor="green"
-        style={{ width: 250 }}
+      {bodies.map((_, index) => (
+        <button key={index} onClick={() => setBodyIndex(index)}>
+          Body {index + 1}
+        </button>
+      ))}
+      <Character
+        bodyIndex={bodyIndex}
+        skinColor={skinColor}
+        clothesColor={clothesColor}
       />
     </div>
   );
