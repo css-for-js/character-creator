@@ -1,19 +1,31 @@
+export const numBodies = 7;
+export const numHeads = 12;
+export const numFaces = 9;
+export const numAccessories = 5;
+
 export const skinColors = [
-  'hsl(31deg, 100%, 85%)',
-  'hsl(28deg, 75%, 75%)',
-  'hsl(25deg, 55%, 60%)',
-  'hsl(23deg, 60%, 40%)',
-  'hsl(22deg, 40%, 30%)',
-  'hsl(20deg, 30%, 17.5%)',
+  { label: 'Porcelain', color: 'hsl(26deg, 72%, 85%)' },
+  { label: 'Ivory', color: 'hsl(33deg, 69%, 80%)' },
+  { label: 'Warm Ivory', color: 'hsl(32deg, 79%, 76%)' },
+  { label: 'Sand', color: 'hsl(33deg, 51%, 71%)' },
+  { label: 'Warm Beige', color: 'hsl(33deg, 59%, 68%)' },
+  { label: 'Honey', color: 'hsl(31deg, 57%, 58%)' },
+  { label: 'Golden', color: 'hsl(34deg, 52%, 54%)' },
+  { label: 'Almond', color: 'hsl(28deg, 47%, 51%)' },
+  { label: 'Chestnut', color: 'hsl(28deg, 50%, 45%)' },
+  { label: 'Espresso', color: 'hsl(27deg, 55%, 34%)' },
+  { label: 'Dark Espresso', color: 'hsl(26deg, 48%, 28%)' },
 ];
 
 export const clothesColors = [
-  'hsl(5deg, 70%, 70%)',
-  'hsl(40deg, 100%, 75%)',
-  'hsl(52deg, 95%, 70%)',
-  'hsl(125deg, 65%, 70%)',
-  'hsl(180deg, 45%, 75%)',
-  'hsl(220deg, 55%, 70%)',
-  'hsl(315deg, 65%, 70%)',
-  'hsl(345deg, 75%, 70%)',
+  { label: 'Pale tomato', color: 'hsl(5deg, 70%, 70%)' },
+  { label: 'Goldenrod', color: 'hsl(40deg, 100%, 75%)' },
+  { label: 'Sunshine', color: 'hsl(52deg, 95%, 70%)' },
+  { label: 'Grass', color: 'hsl(125deg, 65%, 70%)' },
+  { label: 'Teal', color: 'hsl(180deg, 45%, 75%)' },
+  { label: 'Cobalt', color: 'hsl(220deg, 55%, 70%)' },
+  { label: 'Fuscia', color: 'hsl(315deg, 65%, 70%)' },
+  { label: 'Pink', color: 'hsl(345deg, 75%, 70%)' },
+  { label: 'Dark Gray', color: 'hsl(0deg, 0%, 15%)' },
+  { label: 'White', color: 'hsl(180deg, 10%, 85%)' },
 ];
