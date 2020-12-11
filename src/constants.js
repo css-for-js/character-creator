@@ -4,17 +4,17 @@ export const numFaces = 9;
 export const numAccessories = 6;
 
 export const skinColors = [
-  { label: 'Porcelain', color: 'hsl(26deg, 72%, 85%)' },
-  { label: 'Ivory', color: 'hsl(33deg, 69%, 80%)' },
-  { label: 'Warm Ivory', color: 'hsl(32deg, 79%, 76%)' },
-  { label: 'Sand', color: 'hsl(33deg, 51%, 71%)' },
-  { label: 'Warm Beige', color: 'hsl(33deg, 59%, 68%)' },
-  { label: 'Honey', color: 'hsl(31deg, 57%, 58%)' },
-  { label: 'Golden', color: 'hsl(34deg, 52%, 54%)' },
-  { label: 'Almond', color: 'hsl(28deg, 47%, 51%)' },
-  { label: 'Chestnut', color: 'hsl(28deg, 50%, 45%)' },
-  { label: 'Espresso', color: 'hsl(27deg, 55%, 34%)' },
   { label: 'Dark Espresso', color: 'hsl(26deg, 48%, 28%)' },
+  { label: 'Espresso', color: 'hsl(27deg, 55%, 34%)' },
+  { label: 'Chestnut', color: 'hsl(28deg, 50%, 45%)' },
+  { label: 'Almond', color: 'hsl(28deg, 47%, 51%)' },
+  { label: 'Golden', color: 'hsl(34deg, 52%, 54%)' },
+  { label: 'Honey', color: 'hsl(31deg, 57%, 58%)' },
+  { label: 'Warm Beige', color: 'hsl(33deg, 59%, 68%)' },
+  { label: 'Sand', color: 'hsl(33deg, 51%, 71%)' },
+  { label: 'Warm Ivory', color: 'hsl(32deg, 79%, 76%)' },
+  { label: 'Ivory', color: 'hsl(33deg, 69%, 80%)' },
+  { label: 'Porcelain', color: 'hsl(26deg, 72%, 85%)' },
 ];
 
 export const clothesColors = [
@@ -30,3 +30,6 @@ export const clothesColors = [
   { label: 'Gray', color: 'hsl(180deg, 3%, 50%)' },
   { label: 'White', color: 'hsl(180deg, 10%, 85%)' },
 ];
+
+export const defaultSkinColor = skinColors[0].color;
+export const defaultClothesColor = clothesColors[0].color;
