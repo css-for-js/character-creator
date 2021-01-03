@@ -1,17 +1,13 @@
 .characterEditor {
-  min-height: 100%;
-  /* background: linear-gradient(-135deg, #a8ff78, #78ffd6); */
   padding-top: 128px;
   padding-bottom: 64px;
 }
 
-.mainColumn {
-  position: relative;
+.maxWidthWrapper {
 }
 
 .header {
   padding-bottom: 64px;
-  width: 65%;
 }
 
 .title {
@@ -28,23 +24,7 @@
 }
 
 .characterWrapper {
-  position: fixed;
-  top: 15%;
-  left: 60%;
-  bottom: 5%;
-  min-height: 600px;
 }
 
 .controlColumn {
-  width: 50%;
-}
-
-.perspectiveBox {
-  position: fixed;
-  height: 40%;
-  top: 60%;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background: hsl(195deg, 20%, 86%);
 }

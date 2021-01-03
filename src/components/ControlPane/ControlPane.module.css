@@ -2,9 +2,14 @@
   padding: 24px;
   /* Optical centering */
   padding-top: 18px;
-  margin-bottom: 32px;
   background-color: white;
   border-radius: 8px;
+  /*
+    HACK: Margin on an outer bound like this is
+    a little gross, but we haven't seen the tools
+    to deal with it yet!
+  */
+  margin-bottom: 32px;
 }
 
 .title {

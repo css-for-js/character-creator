@@ -3,12 +3,17 @@
   height: 50px;
   font-size: 1.25rem;
   font-weight: 700;
-  margin-right: 4px;
   border: 2px solid hsl(0deg, 0%, 5%);
   background: white;
   outline-offset: 2px;
   border-radius: 1px;
   cursor: pointer;
+  /*
+    HACK: Margin on an outer bound like this is
+    a little gross, but we haven't seen the tools
+    to deal with it yet!
+  */
+  margin-right: 4px;
 }
 
 .toggleButton[aria-pressed='true'] {
