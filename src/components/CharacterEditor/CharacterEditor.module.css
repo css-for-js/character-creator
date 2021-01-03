@@ -5,6 +5,10 @@
   padding-bottom: 64px;
 }
 
+.mainColumn {
+  position: relative;
+}
+
 .header {
   padding-bottom: 64px;
   width: 65%;
@@ -12,7 +16,7 @@
 
 .title {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 0;
   margin-bottom: 16px;
   letter-spacing: -0.5px;
@@ -33,4 +37,14 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.perspectiveBox {
+  position: fixed;
+  height: 40%;
+  top: 60%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: hsl(195deg, 20%, 86%);
 }

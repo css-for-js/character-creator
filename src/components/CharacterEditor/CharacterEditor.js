@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Character from '../Character';
-import MaxWidthWrapper from '../MaxWidthWrapper';
-import ControlPane from '../ControlPane';
-
 import {
   defaultSkinColor,
   defaultClothesColor,
 } from '../../constants';
+import Character from '../Character';
+import MaxWidthWrapper from '../MaxWidthWrapper';
+import ControlPane from '../ControlPane';
+
 import {
   bodyOptions,
   headOptions,
@@ -30,7 +30,9 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
-      <MaxWidthWrapper>
+      <div className={styles.perspectiveBox} />
+
+      <MaxWidthWrapper className={styles.mainColumn}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
           <p className={styles.description}>

@@ -13,7 +13,6 @@ body {
 *:before,
 *:after {
   font-family: 'Poppins', sans-serif;
-  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
 
