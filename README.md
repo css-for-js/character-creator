@@ -99,10 +99,11 @@ To help add a bit of perspective, a light gray bar should extend across the bott
 
 It should sit behind the avatar (and both the perspective bar and the character should sit below the footer):
 
-Scroll GIF
+<img alt="Screen recording, showing how the character and stripe don't move as the page is scrolled" src="./docs/scroll.gif" style="width: 640px; max-width: 100%" />
 
 For bonus points, solve this challenge without setting any z-indexes.
 
+### Exercise 5 (Stretch): Add a "Create" button
 
 ## Color palette
 
