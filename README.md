@@ -67,7 +67,7 @@ Additionally, a few global styles can be found in `src/index.css`.
 
 Let's start with a small detail: The footer links are unreadable:
 
-<img alt="Side-by-side comparison of the current footer vs. the ideal one" src="./docs/footer-fix.png" />
+<img alt="Side-by-side comparison of the current footer vs. the ideal one" src="./docs/footer-fix.png" style="max-width: 500px" />
 
 ### Exercise 2: Layout adjustments
 
@@ -79,7 +79,7 @@ Our header should be 65% of the available width, and our control-panel column sh
 
 <img alt="Annotated mockup showing the overall width at 1024px, the header occupying 65%, and the control panels occupying 50%" src="./docs/sizes.png" style="width: 100%;" />
 
-Our character should be given a fixed position, and held in the space made available by the width tweaks.
+The character (the big illustration) should use fixed positioning, and it should occupy the space cleared by the above width tweaks.
 
 Give the character a minimum height of 500px. On smaller windows, this means the character won't fit in the viewport:
 
@@ -95,7 +95,7 @@ Each control panel features a number of customizations. For control panels with 
 
 To help add a bit of perspective, a light gray bar should extend across the bottom 40% of the screen:
 
-IMAGE
+<img alt="Screenshot of the mockup, showing the light gray bar" src="./docs/mockup.png" style="width: 100%;" />
 
 It should sit behind the avatar (and both the perspective bar and the character should sit below the footer):
 
