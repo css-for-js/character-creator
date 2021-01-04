@@ -2,7 +2,10 @@
   position: relative;
   padding: 64px;
   background: hsl(0deg, 0%, 5%);
-  color: white;
+  color: deeppink;
   text-align: center;
 }
 
+.footer a {
+  color: inherit;
+}
