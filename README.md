@@ -101,21 +101,18 @@ It should sit behind the avatar (and both the perspective bar and the character 
 
 <img alt="Screen recording, showing how the character and stripe don't move as the page is scrolled" src="./docs/scroll.gif" style="width: 640px; max-width: 100%" />
 
+You can use the background color `hsl(195deg, 20%, 86%)`.
+
 For bonus points, solve this challenge without setting any z-indexes.
 
-### Exercise 5 (Stretch): Add a "Create" button
+### Exercise 5 (Stretch): Implement a mobile variant
 
-## Color palette
+On mobile devices, the cards should stack horizontally, and sit near the bottom of the screen, underneath the character:
 
-There aren't many colors used in this project (much of the color comes from the character! All of that stuff is already managed for us).
+<img alt="Screen recording, showing a mobile variant of the application" src="./docs/mobile-variant.gif" style="max-width: 100%" />
 
-Colors used:
+**NOTE:** This is a challenging stretch goal! It may require some CSS features we haven't covered yet. This is meant as an extra challenge for advanced students. Feel free to skip it!
 
-- White: hsl(0deg, 0%, 100%)
-- Offwhite: hsl(180deg, 25%, 92%)
-- Light gray: hsl(195deg, 20%, 86%)
-- Dark gray: hsl(0deg, 0%, 30%)
-- Offblack: hsl(0deg, 0%, 5%)
 
 ## Submissions
 
