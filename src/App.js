@@ -6,8 +6,11 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <CharacterEditor />
-      <Footer />
+      <div className="perspectiveShading" />
+      <div className="mainContent">
+        <CharacterEditor />
+        <Footer />
+      </div>
     </>
   );
 }

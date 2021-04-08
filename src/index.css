@@ -30,3 +30,15 @@ body {
   padding: 0;
   border: 0;
 }
+
+.perspectiveShading {
+  position: fixed;
+  bottom: 0;
+  background-color: hsl(195, 20%, 86%);
+  height: 40%;
+  width: 100%;
+}
+
+.mainContent {
+  position: relative;
+}
