@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <CharacterEditor />
-      <Footer />
+      <Footer className="footer" />
     </>
   );
 }
