@@ -7,6 +7,7 @@ const ToggleButton = ({
   color,
   children,
   isSelected,
+  title,
   ...delegated
 }) => {
   return (
@@ -16,7 +17,7 @@ const ToggleButton = ({
       className={styles.toggleButton}
       style={{ backgroundColor: color }}
     >
-      <span className="visually-hidden">hello</span>
+      <span className="visually-hidden">{title}</span>
       {children}
     </button>
   );

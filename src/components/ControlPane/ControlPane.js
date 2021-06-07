@@ -29,6 +29,7 @@ const ControlPane = ({
             onClick={() => handleSelectOption(id)}
             label={label}
             color={color}
+            title={title}
           >
             {children}
           </ToggleButton>
