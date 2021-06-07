@@ -9,7 +9,6 @@
 
 .header {
   padding-bottom: 64px;
-  width: 65%;
 }
 
 .title {
@@ -27,14 +26,14 @@
 
 .characterWrapper {
   min-height: 500px;
-  position: fixed;
-  top: 128px;
-  left: 58%;
-  width: 360px;
 }
 
 .controlColumn {
-  width: 50%;
+  display: flex;
+  overflow-x: auto;
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
 }
 
 .screenDecoration{
@@ -43,4 +42,27 @@
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.characterControlWrapper {
+  position: relative;
+}
+
+@media(min-width: 520px) {
+  .header {
+    width: 65%;
+  }
+  .characterWrapper {
+    position: fixed;
+    top: 128px;
+    left: 58%;
+    width: 360px;
+  }
+  .controlColumn {
+    width: 50%;
+    display: block;
+    overflow: unset;
+    position: static;
+  }
+
 }
