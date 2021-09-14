@@ -6,6 +6,8 @@
   text-align: center;
 }
 
-a {
-  color: white;
+.footer a {
+  /* Do inherit instead of specifying the color so when we
+  change the color above, this will also change */
+  color: inherit;
 }
