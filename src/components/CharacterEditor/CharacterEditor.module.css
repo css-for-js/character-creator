@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -35,4 +36,13 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.perspectiveEffect {
+  background-color: hsl(195deg, 20%, 86%);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 60%;
 }
