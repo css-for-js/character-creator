@@ -1,5 +1,8 @@
 .maxWidthWrapper {
-  max-width: 1024px;
+  border: 4px dashed red;
+  display: flex;
+  flex-direction: column;
+  max-width: 65%;
   padding-left: 32px;
   padding-right: 32px;
   margin-left: auto;

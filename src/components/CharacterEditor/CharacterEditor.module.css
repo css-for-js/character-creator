@@ -1,9 +1,12 @@
 .characterEditor {
-  padding-top: 128px;
+  border: 4px dashed green;
+  display: flex;
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 
 .maxWidthWrapper {
+  max-width: 65%;
 }
 
 .header {
@@ -24,7 +27,10 @@
 }
 
 .characterWrapper {
+  border: 4px dashed rebeccapurple;
+  width: 50%;
 }
 
 .controlColumn {
+  border: 4px dashed lightcoral;
 }
