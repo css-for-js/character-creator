@@ -3,13 +3,10 @@
   display: flex;
   padding-top: 128px;
   padding-bottom: 64px;
-  max-width: 1024px;
-  height: 100vh;
 }
 
 .maxWidthWrapper {
   max-width: 65%;
-  background-color: yellow;
 }
 
 .header {
@@ -30,11 +27,10 @@
 }
 
 .characterWrapper {
-  border: 4px dashed rebeccapurple;
   width: 35%;
-  background-color: blue;
 }
 
 .controlColumn {
   border: 4px dashed lightcoral;
+  /*overflow: scroll;*/
 }
