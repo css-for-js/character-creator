@@ -36,6 +36,7 @@
 .controlColumn {
   /*border: 4px dashed lightcoral;*/
   /*overflow: scroll;*/
+  width: 85%;
 }
 
 .perspectiveEffect {
