@@ -7,12 +7,19 @@ body,
 body {
   background-color: hsl(180deg, 25%, 92%);
   margin: 0;
+
+  /*position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  border-bottom: 400px solid lightblue;
+  background-size: 40% auto;*/
 }
 
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 

@@ -1,5 +1,5 @@
 .maxWidthWrapper {
-  border: 4px dashed red;
+  /*border: 4px dashed red;*/
   display: flex;
   flex-direction: column;
   max-width: 65%;

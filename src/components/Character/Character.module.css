@@ -1,6 +1,6 @@
 .character {
   /* Fill the available container height */
-  height: 95vh;
+  height: 100vh;
   min-height: 500px;
   position: fixed;
   bottom: 0px;
