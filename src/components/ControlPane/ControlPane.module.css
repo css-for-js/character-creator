@@ -1,5 +1,9 @@
 .controlPane {
   padding: 24px;
+  max-width: 100%;
+  width: fit-content;
+  overflow-x: auto;
+  white-space: nowrap;
   /* Optical centering */
   padding-top: 18px;
   background-color: white;
