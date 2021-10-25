@@ -2,4 +2,9 @@
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  scrollbar-width: 0;
+}
+
+.buttonRow::-webkit-scrollbar {
+  display: none;
 }

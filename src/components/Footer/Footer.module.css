@@ -9,3 +9,9 @@
 a {
   color: white;
 }
+
+@media screen and (max-width: 545px) {
+  .footer {
+    display: none;
+  }
+}
