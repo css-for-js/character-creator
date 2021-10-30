@@ -1,6 +1,7 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  position: relative;
 }
 
 .maxWidthWrapper {
@@ -33,4 +34,13 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.backgroundElement {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: hsl(195deg, 20%, 86%);
 }
