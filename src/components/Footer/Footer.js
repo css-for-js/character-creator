@@ -7,6 +7,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       All character assets taken from{' '}
       <a
+        style={{ color: 'white' }}
         href="https://www.openpeeps.com/"
         target="_blank"
         rel="noopener noreferrer"
