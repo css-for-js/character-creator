@@ -1,0 +1,7 @@
+.root {
+    position: sticky;
+    bottom: 0;
+    height: 50%;
+    z-index: -1;
+    background-color: hsl(195deg, 20%, 86%);
+}
