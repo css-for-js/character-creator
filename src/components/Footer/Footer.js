@@ -1,20 +1,23 @@
-import React from 'react';
+import React from "react";
 
-import styles from './Footer.module.css';
+import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      All character assets taken from{' '}
-      <a
-        href="https://www.openpeeps.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Open Peeps
-      </a>
-      , by Pablo Stanley
-    </footer>
+    <>
+      <div className={styles.perspectiveDecoration} />
+      <footer className={styles.footer}>
+        All character assets taken from{" "}
+        <a
+          href="https://www.openpeeps.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open Peeps
+        </a>
+        , by Pablo Stanley
+      </footer>
+    </>
   );
 };
 
