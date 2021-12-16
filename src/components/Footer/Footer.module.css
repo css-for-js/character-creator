@@ -9,14 +9,3 @@
 .footer a {
   color: inherit;
 }
-
-.perspectiveDecoration {
-  position: fixed;
-  bottom: 0;
-  height: 60%;
-  left: 0;
-  width: 100%;
-  background-color: hsl(195deg, 20%, 86%);
-  /* TODO: Try without z-index */
-  z-index: -1;
-}
