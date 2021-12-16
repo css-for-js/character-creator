@@ -5,7 +5,8 @@
 
 .maxWidthWrapper {
   position: relative;
-  width: 1024px;
+  max-width: 1024px;
+  overflow-x: hidden;
 }
 
 .header {
@@ -26,23 +27,32 @@
   margin: 0;
 }
 
+.controlColumn {
+  width: 100%;
+}
+
 .characterWrapper {
   min-height: 500px;
   height: 100%;
-  position: fixed;
+
   top: 10px;
-  right: 10px;
+  left: 0%;
 }
 
-.controlColumn {
-  max-width: 50%;
-}
-
-.perspectiveEffect {
-  position: fixed;
-  top: 60%;
-  left: 0;
-  height: 40%;
-  width: 100%;
-  background-color: hsl(195deg, 20%, 86%);
+@media only screen and (min-width: 1080px) {
+  .controlColumn {
+    width: 50%;
+  }
+  .characterWrapper {
+    left: 50%;
+    position: fixed;
+  }
+  .perspectiveEffect {
+    position: fixed;
+    top: 60%;
+    left: 0;
+    height: 40%;
+    width: 100%;
+    background-color: hsl(195deg, 20%, 86%);
+  }
 }
