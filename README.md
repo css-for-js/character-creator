@@ -2,7 +2,6 @@
 
 In this workshop, you'll build a Sims-style character creation screen.
 
-
 ## Mockups
 
 Desktop:
@@ -35,7 +34,7 @@ You should be able to access the application at `http://localhost:3000`.
 
 This project is built with React.
 
-**All of the functionality has already been built.** Your job is to add the CSS. Some light tweaking of the JSX will be required, but only in service of styling and accessibility goals.
+**All of the functionality has already been built.** Your job is to add the CSS. You're also allowed to tweak the JSX (HTML) as-needed. But you shouldn't need to fuss with any advanced React stuff.
 
 This project uses **CSS Modules**. CSS modules are ultimately very similar to vanilla CSS, but the classes are applied in JS. Here's an example:
 
@@ -51,11 +50,7 @@ This project uses **CSS Modules**. CSS modules are ultimately very similar to va
 import styles from './Something.module.css';
 
 function Something() {
-  return (
-    <div className={styles.wrapper}>
-      I'll be 500px wide!
-    </div>
-  );
+  return <div className={styles.wrapper}>I'll be 500px wide!</div>;
 }
 ```
 
@@ -112,7 +107,6 @@ On mobile devices, the cards should stack horizontally, and sit near the bottom 
 <img alt="Screen recording, showing a mobile variant of the application" src="./docs/mobile-variant.gif" style="max-width: 100%" />
 
 **NOTE:** This is a challenging stretch goal! It may require some CSS features we haven't covered yet. This is meant as an extra challenge for advanced students. Feel free to skip it!
-
 
 ## Submissions
 
