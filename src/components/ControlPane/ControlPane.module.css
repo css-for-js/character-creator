@@ -1,7 +1,10 @@
-.controlPane {
-  overflow: auto;
-  white-space: nowrap;
+/* @media (max-width: 400px) {
+  .controlPane {
+    display: flex;
+  }
+} */
 
+.controlPane {
   padding: 18px;
   /* Optical centering */
   padding-top: 18px;
@@ -27,4 +30,15 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+@media (max-width: 400px) {
+  .controlPane {
+    z-index: 1000;
+    width: 60%;
+    margin-right: 32px; 
+  }
+  /* .controlPane:last-of-type {
+    margin-right: 0px; 
+  } */
 }

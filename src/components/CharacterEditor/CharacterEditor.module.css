@@ -1,10 +1,16 @@
+
+
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
 }
 
 .maxWidthWrapper {
-  width: 1024px;
+  max-width: 1024px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -26,6 +32,7 @@
 }
 
 .characterWrapper {
+  /* display: none;  */
   position: fixed;
   top: 150px; 
   left: 60%; 
@@ -34,4 +41,27 @@
 
 .controlColumn {
   width: 50%;
+}
+
+@media (max-width: 400px) {
+  .controlColumn {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    position: fixed;
+    bottom: 24px;
+    /* white-space: nowrap; */
+  }
+
+  .characterEditor {
+    padding-top: 64px;
+  }
+
+  .characterWrapper {
+    position: static; 
+  }
+
+  .header {
+    width: 100%;
+  }
 }

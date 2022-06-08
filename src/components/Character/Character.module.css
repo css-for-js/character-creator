@@ -2,3 +2,11 @@
   /* Fill the available container height */
   height: 100%;
 }
+
+@media (max-width: 400px) {
+  .character {
+    /* Fill the available container height */
+    height: 90%;
+  }
+}
+
