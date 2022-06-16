@@ -30,6 +30,12 @@ npm run start
 
 You should be able to access the application at `http://localhost:3000`.
 
+## Troubleshooting
+
+If you run into problems running a local development server, check out our [Troubleshooting Guide](https://courses.joshwcomeau.com/troubleshooting) on the course platform.
+
+This guide addresses the common `Digital Envelope Routine` error you may have seen.
+
 ## Project structure and context
 
 This project is built with React.
