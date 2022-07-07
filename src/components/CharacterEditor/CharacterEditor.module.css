@@ -4,7 +4,16 @@
     position: relative;
 }
 
+.landing {
+    position: fixed;
+    top: 50%;
+    height: 50%;
+    width: 100%;
+    background: hsl(195deg, 20%, 86%);
+}
+
 .maxWidthWrapper {
+    position: relative;
 }
 
 .header {
@@ -33,4 +42,5 @@
 }
 
 .controlColumn {
+    position: relative;
 }
