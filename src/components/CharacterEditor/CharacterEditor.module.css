@@ -6,8 +6,8 @@
 
 .landing {
     position: fixed;
-    top: 50%;
-    height: 50%;
+    top: 60%;
+    height: 40%;
     width: 100%;
     background: hsl(195deg, 20%, 86%);
 }
@@ -38,9 +38,12 @@
     width: 100%;
     position: fixed;
     left: 60%;
-    top: 0;
+    top: 10%;
+    bottom: 5%;
+    min-height: 500px;
 }
 
 .controlColumn {
     position: relative;
+    width: 50%;
 }

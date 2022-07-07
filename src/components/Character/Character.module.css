@@ -1,5 +1,4 @@
 .character {
     /* Fill the available container height */
-    min-height: 500px;
     width: 35%;
 }

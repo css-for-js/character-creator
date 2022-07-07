@@ -14,8 +14,6 @@
     to deal with it yet!
   */
   margin-right: 4px;
-  margin-top: 12px;
-  margin-bottom: 16px;
 }
 
 .toggleButton[aria-pressed='true'] {
