@@ -1,1 +1,1 @@
-export { default } from './CharacterEditor';
+export { default } from './CharacterEditor.jsx';
