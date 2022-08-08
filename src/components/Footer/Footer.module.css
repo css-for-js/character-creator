@@ -6,3 +6,6 @@
   text-align: center;
 }
 
+.footer a {
+  color: inherit;
+}
