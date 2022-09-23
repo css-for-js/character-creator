@@ -17,6 +17,7 @@ import {
   clothesColorOptions,
 } from './CharacterEditor.helpers';
 import styles from './CharacterEditor.module.css';
+import PerspectiveBar from "../PerspectiveBar/PerspectiveBar";
 
 function App() {
   const [body, setBody] = React.useState(0);
@@ -30,6 +31,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
+      <PerspectiveBar />
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>

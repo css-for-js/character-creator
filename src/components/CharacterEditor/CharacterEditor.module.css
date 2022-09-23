@@ -8,6 +8,7 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -27,4 +28,6 @@
 }
 
 .controlColumn {
+  isolation: isolate;
+  width: 50%;
 }
