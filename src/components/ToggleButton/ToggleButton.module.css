@@ -16,7 +16,7 @@
   margin-right: 4px;
 }
 
-.toggleButton[aria-pressed='true'] {
+.toggleButton[aria-pressed="true"] {
   background: hsl(0deg, 0%, 5%);
   color: white;
   border-width: 6px;
