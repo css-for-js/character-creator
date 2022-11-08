@@ -8,12 +8,24 @@
   outline-offset: 2px;
   border-radius: 1px;
   cursor: pointer;
+
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
     to deal with it yet!
+
+    I would typically solve this with Flexbox
+    and the `gap` property. We'll learn about it
+    in Module 4.
   */
   margin-right: 4px;
+
+  /*
+    The button contains a "visually-hidden" snippet,
+    and we want it to be contained by this button,
+    to prevent some funky scroll issues from happening.
+  */
+  position: relative;
 }
 
 .toggleButton[aria-pressed='true'] {
