@@ -1,8 +1,14 @@
 .footer {
-  position: relative;
+  /*border: 1px dashed magenta;*/
   padding: 64px;
   background: hsl(0deg, 0%, 5%);
   color: white;
   text-align: center;
 }
 
+a:link,
+a:hover,
+a:visited,
+a:focus {
+  color: white;
+}

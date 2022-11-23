@@ -1,4 +1,5 @@
 .toggleButton {
+  /*border: 2px dashed lime;*/
   width: 50px;
   height: 50px;
   font-size: 1.25rem;
@@ -28,7 +29,8 @@
   position: relative;
 }
 
-.toggleButton[aria-pressed='true'] {
+.toggleButton[aria-pressed="true"] {
+  /*border: 2px dashed lime;*/
   background: hsl(0deg, 0%, 5%);
   color: white;
   border-width: 6px;

@@ -1,9 +1,15 @@
 .characterEditor {
+  /*border: 4px dashed green;*/
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
   padding-top: 128px;
   padding-bottom: 64px;
 }
 
 .maxWidthWrapper {
+  position: relative;
+  max-width: 65%;
 }
 
 .header {
@@ -24,7 +30,21 @@
 }
 
 .characterWrapper {
+  width: 35%;
 }
 
 .controlColumn {
+  /*border: 4px dashed lightcoral;*/
+  /*overflow: scroll;*/
+  width: 85%;
+}
+
+.perspectiveEffect {
+  position: fixed;
+  z-index: -1;
+  top: 60%;
+  height: 40%;
+  width: 100%;
+  left: 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
