@@ -56,7 +56,11 @@ This project uses **CSS Modules**. CSS modules are ultimately very similar to va
 import styles from './Something.module.css';
 
 function Something() {
-  return <div className={styles.wrapper}>I'll be 500px wide!</div>;
+  return (
+    <div className={styles.wrapper}>
+      I'll be 500px wide!
+    </div>
+  );
 }
 ```
 
@@ -85,6 +89,8 @@ The character (the big illustration) should use fixed positioning, and it should
 Give the character a minimum height of 500px. On smaller windows, this means the character won't fit in the viewport:
 
 <img alt="Screenshot of a shorter Chrome window, with the character truncated at the knees" src="./docs/short-window.png" style="width: 100%;" />
+
+> NOTE: If you notice at some point that the character SVG disappears, it's likely because it needs to be given an explicit width/height. This is discussed in more depth on the “Solution” page, https://courses.joshwcomeau.com/css-for-js/02-rendering-logic-2/20-character-workshop-solution#collapsed-svgs
 
 ### Exercise 3: Overflow
 
