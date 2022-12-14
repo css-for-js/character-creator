@@ -4,9 +4,14 @@
 }
 
 .maxWidthWrapper {
+  width: 100%;
+  /* Stacking */
+  position: relative;
+  z-index: 3;
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +29,36 @@
 }
 
 .characterWrapper {
+  max-width: 35%;
+  min-height: 500px;
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  bottom: 5%;
+  margin-left: 64px;
+  z-index: 3;
 }
 
 .controlColumn {
+  width: 50%;
+}
+
+.perspectiveBoxEffect {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 60%;
+  height: 40%;
+  background-color: hsl(195deg, 20%, 86%);
+  z-index: 2;
+}
+.sideBoxEffect {
+  position: fixed;
+  top: 0;
+  width: 150px;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(195deg, 15%, 76%);
+  z-index: 1;
 }
