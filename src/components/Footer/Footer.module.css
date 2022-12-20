@@ -4,5 +4,9 @@
   background: hsl(0deg, 0%, 5%);
   color: white;
   text-align: center;
+  z-index: 0;
 }
 
+.footer > a {
+  color: white;
+}
