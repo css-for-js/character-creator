@@ -39,6 +39,8 @@
   width: 50%;
 }
 
+/*This gives some perspective look behind the 
+control panel and the character */
 .perspective {
   position: fixed;
   background-color: hsl(195deg, 20%, 86%);
