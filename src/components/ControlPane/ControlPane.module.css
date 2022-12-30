@@ -10,6 +10,9 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  overflow-y: auto;
+  white-space: nowrap;
+  position: relative;
 }
 
 .title {

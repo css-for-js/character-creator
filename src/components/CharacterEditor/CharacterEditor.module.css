@@ -1,6 +1,11 @@
 .characterEditor {
+  position: relative;
   padding-top: 128px;
   padding-bottom: 64px;
+  height: 100vh;
+  overflow: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .maxWidthWrapper {
@@ -8,6 +13,7 @@
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +30,21 @@
 }
 
 .characterWrapper {
+  display: inline-block;
+  width: 50%;
 }
 
 .controlColumn {
+  display: inline-block;
+  width: 50%;
+}
+
+/*This gives some perspective look behind the 
+control panel and the character */
+.perspective {
+  position: fixed;
+  background-color: hsl(195deg, 20%, 86%);
+  height: 43%;
+  width: 100%;
+  bottom: 0;
 }
