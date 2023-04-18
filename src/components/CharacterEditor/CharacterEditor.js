@@ -31,6 +31,7 @@ function App() {
   return (
     <main className={styles.characterEditor}>
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
+        <div className={styles.leftContainer}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
           <p className={styles.description}>
@@ -76,6 +77,19 @@ function App() {
             handleSelectOption={setClothesColor}
           />
         </div>
+        </div>
+
+        <div className={styles.characterWrapper}>
+        <Character
+          body={body}
+          head={head}
+          face={face}
+          accessory={accessory}
+          skinColor={skinColor}
+          clothesColor={clothesColor}
+        />
+      </div>
+
       </MaxWidthWrapper>
 
       <div className={styles.characterWrapper}>
@@ -88,6 +102,8 @@ function App() {
           clothesColor={clothesColor}
         />
       </div>
+      
+      
     </main>
   );
 }

@@ -1,4 +1,6 @@
 .character {
   /* Fill the available container height */
   height: 100%;
+  max-height: 500px;
+  
 }

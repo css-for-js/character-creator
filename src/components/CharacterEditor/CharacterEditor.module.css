@@ -1,13 +1,22 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  display: flex;
 }
 
 .maxWidthWrapper {
+  max-width: 1024px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* flex-direction: column; */
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -23,8 +32,12 @@
   margin: 0;
 }
 
+
 .characterWrapper {
+  max-width: 200px;
 }
 
 .controlColumn {
+  max-width: 50%;
+  /* added above */
 }
