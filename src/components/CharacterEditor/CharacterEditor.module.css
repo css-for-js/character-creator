@@ -4,10 +4,14 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
+  max-width: 65%;
+  outline: 1px solid red;
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +28,10 @@
 }
 
 .characterWrapper {
+  position: absolute;
+  /* outline: 1px solid purple; */
+  top: 0;
+  right: 0;
 }
 
-.controlColumn {
-}
+.controlColumn {}
