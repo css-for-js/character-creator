@@ -46,7 +46,7 @@ function App() {
             handleSelectOption={setBody}
           />
           <ControlPane
-            title="Heads"
+            title="Hair styles"
             options={headOptions}
             currentOption={head}
             handleSelectOption={setHead}

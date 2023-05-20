@@ -34,4 +34,6 @@
   right: 0;
 }
 
-.controlColumn {}
+.controlColumn {
+  outline: 1px solid green;
+}
