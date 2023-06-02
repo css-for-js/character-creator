@@ -1,4 +1,6 @@
 .controlPane {
+  outline: 1px solid deeppink;
+  overflow: auto;
   padding: 24px;
   /* Optical centering */
   padding-top: 18px;
@@ -10,6 +12,7 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  max-width: 40%;
 }
 
 .title {
