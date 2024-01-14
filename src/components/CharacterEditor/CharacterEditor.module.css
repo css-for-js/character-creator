@@ -36,3 +36,12 @@
 .controlColumn {
   max-width: 50%;
 }
+
+.topContainer {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  bottom:0;
+  height:40%;
+  width:100%;
+  z-index:-1;
+}
