@@ -6,3 +6,7 @@
   text-align: center;
 }
 
+.footer a {
+  /* inherit is a better choice here, instead of just assigning the color to white */
+  color: inherit;
+}
